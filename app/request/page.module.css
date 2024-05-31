@@ -1,0 +1,48 @@
+.heroMessage {
+    max-width: 700px;
+    margin: 3em auto;
+    text-align: center;
+}
+
+.submissionMessage {
+    height: 75vh;
+}
+
+.heroH1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.heroP {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.link {
+    color: #cf4295;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #ffa0e2;
+}
+
+.moreSubmitButton {
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    background-color: #a3226d;
+    transition: all 0.3s ease;
+}
+
+.moreSubmitButton:hover {
+    background-color: #fe46b2;
+
+}
+
+.confirmationCode {
+    font-weight: 600;
+    text-decoration: underline;
+}

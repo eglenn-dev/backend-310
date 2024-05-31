@@ -1,0 +1,132 @@
+.printForm {
+    max-width: 400px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.formLabelArea {
+    width: 100%;
+    padding: 0;
+    margin: 0.5em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formCommentArea {
+    width: 100%;
+    padding: 0;
+    margin: 0.5em 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.formInput {
+    margin-left: 1em;
+    padding: 0.6rem;
+    display: block;
+    width: 325px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #747474;
+}
+
+.termsArea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formCheckbox {
+    transform: scale(2);
+    margin: 0 1em
+}
+
+.commentArea {
+    height: 80px;
+    width: 100%;
+    margin: 1em 0;
+}
+
+.link {
+    color: #cf4295;
+    text-decoration: underline;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #ffa0e2;
+}
+
+/* Submit Button Styles */
+
+.submitButton {
+    background: none;
+    border: none;
+    margin: 2em auto;
+}
+
+.cta {
+    position: relative;
+    padding: 11.5px 18px;
+    transition: all 0.2s ease;
+    border: 3px solid #982f6d;
+    border-radius: 50px;
+    background: #982f6d;
+    cursor: pointer;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    border-radius: 50px;
+    background: white;
+    width: 45px;
+    height: 45px;
+    transition: all 0.4s ease;
+}
+
+.ctaSpan {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.ctaSvg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: white;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.2s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #1c1c1c;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+    transition: all 0.2s ease;
+}
+
+.cta:active {
+    transform: scale(0.95) translateY(5px);
+    transition: all 0.2s ease;
+}

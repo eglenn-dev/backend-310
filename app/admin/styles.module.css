@@ -1,0 +1,57 @@
+.adminArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+}
+
+.adminArea h1 {
+    margin: 1em;
+}
+
+.requestsArea {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-width: 100%;
+    min-height: 85%;
+    gap: 1em;
+}
+
+.requestColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.requestCard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 150px;
+    width: 250px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    padding: 1.25em;
+    margin: 0.5em;
+}
+
+.requestCard h4 {
+    margin: 5px 0;
+}
+
+.requestCard p {
+    margin-left: 10px;
+}
+
+.fileDownload {
+    color: #ffa0e2;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+.fileDownload:hover {
+    color: #cf4295;
+}
