@@ -4,7 +4,7 @@
 
 In my work there was a obvious tech gap in the 3D printing process. We were relying on email to manage the system and it was not efficient. I decided to create a 3D Printing Queue Management System to help manage the 3D printing process. This system will allow users to submit their 3D printing requests and the admin will be able to manage the queue.
 
-[Software Demo Video]()
+[Software Demo Video](https://youtu.be/qSycndXZm34)
 
 # Development Environment
 
